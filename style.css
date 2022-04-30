@@ -32,13 +32,16 @@ body {
 }
 
 .newspaper-container {
-    background-color: white;
+    width: 1000px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
     box-shadow: .5px .5px #ddd;
-    padding: 5px;
-    /* width: auto; */
-    border: 15px solid #eee;
-    border-radius: 2em;
-    /* border-style: hidden; */
+    padding: 5% 2%;
+    border: 1px solid #eee;
+    border-radius: 1%;
+    box-shadow: 2px 2px 5px 1px rgb(0 0 0 / 20%);
 
 }
 
@@ -103,8 +106,4 @@ section {
     display: inline-block;
     width: 40%;
     margin: 40px;
-}
-
-section img {
-    width: 60%
 }
